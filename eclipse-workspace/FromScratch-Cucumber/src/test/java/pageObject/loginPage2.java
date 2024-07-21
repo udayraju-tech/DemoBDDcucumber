@@ -6,16 +6,14 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class loginPage {
+public class loginPage2 {
 	public WebDriver Idriver;
 		
-		public loginPage(WebDriver rdriver)
+		public loginPage2(WebDriver rdriver)
 		{
 			Idriver=rdriver;
 			PageFactory.initElements(rdriver, this);
 		}
-		
-		/* My XPATHS available here*/
 		
 		@FindBy(name="Email")
 		@CacheLookup
